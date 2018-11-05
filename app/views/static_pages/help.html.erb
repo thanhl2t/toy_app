@@ -1,0 +1,17 @@
+<div id="index_main">
+  <div id="help_main">
+    <h1> <%= t ".title3" %> </h1>
+    <h3>
+      <%= t ".get" %>
+      <%= link_to t(".rails"), Settings.help.link2 %> <%= t ".sample" %>
+      <%= link_to t(".ruby"), Settings.help.link3 %> <%= t ".book" %>
+    </h3>
+  </div>
+ </div>
+
+<div class="languages">
+  <%= t ".Languages" %>
+  <%= link_to t(".En"), locale:"en" %>
+  <%= link_to t(".Vi"), locale:"vi" %>
+  <% provide :title, t(".title1") %>
+</div>

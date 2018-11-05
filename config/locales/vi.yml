@@ -1,0 +1,59 @@
+vi:
+  static_pages:
+    home:
+      app: "Chào mừng bạn đến với Ứng dụng mẫu"
+      first: "Đây là trang chủ cho"
+      link: "Hướng dẫn Ruby on Rail"
+      last: "ứng dụng mẫu."
+      title1: "Trang chủ"
+      Languages: "Ngôn ngữ"
+      En: "Tiếng Anh"
+      Vi: "Tiếng Việt"
+    about:
+      titles: "Trợ giúp"
+      the: "Các"
+      ruby: "Hướng dẫn Ruby on Rails"
+      is: "là một"
+      book: "sách"
+      and: "và"
+      screen: "screencast series"
+      to: "để dạy phát triển web với"
+      ruby1: "Ruby on Rails"
+      this: "Đây là ứng dụng mẫu cho hướng dẫn."
+      Languages: "Ngôn ngữ"
+      En: "Tiếng Anh"
+      Vi: "Tiếng Việt"
+    help:
+      title3: "Trợ Giúp"
+      get: "Lấy"
+      sample: "mẫu"
+      book: "sách"
+      Languages: "Ngôn ngữ"
+      En: "Tiếng Anh"
+      Vi: "Tiếng Việt"
+    helpers:
+      application_helper:
+        title2: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
+  layouts:
+    application:
+      title2: Ứng dụng mẫu hướng dẫn Ruby on Rails
+      sample app: "Ứng dụng mẫu"
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      login: "Đăng nhập"
+    _header:
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      login: "Đăng nhập"
+    _fotter:
+      about: "Chúng tôi"
+      contact: "Liên hệ"
+      the: "Các"
+      by: "bởi"
+      ruby: "Hướng dẫn Ruby on Rails"
+      author: "Michael Hartl"
+  users:
+    new:
+      Users: "Tài khoản"
+      Find: "Tìm kiêm trong"
+

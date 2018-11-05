@@ -1,0 +1,17 @@
+home:
+  link1: "http://www.railstutorial.org/"
+help:
+  link2: "http://www.railstutorial.org/help"
+  link3: "http://www.railstutorial.org/book"
+about:
+  link4: "http://www.railstutorial.org/"
+  link5: "http://railstutorial.org/book"
+  link6: "http://screencasts.railstutorial.org/"
+  link7: "http://rubyonrails.org/"
+_footer:
+  link8: "http://www.railstutorial.org/"
+  link9: "http://www.michaelhartl.com/"
+User:
+  number: 50
+  number1: 255
+  number2: 6

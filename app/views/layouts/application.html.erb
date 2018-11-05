@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>ToyApp</title>
+    <title><%= t ".title2" %></title>
     <%= csrf_meta_tags %>
-
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track": "reload" %>
+    <%= javascript_include_tag "application", "data-turbolinks-track": "reload" %>
   </head>
-
   <body>
-    <%= yield %>
+    <header id="header-container" class="navbar navbar-fixed-top navbar-inverse">
+      <h2 id= "logo"><a href="#"><%= t ".sample app" %></a></h2>
+      <nav>
+        <ul class="nav navbar-nav navbar-right menu-container">
+          <li><%= link_to t(".home") %></li>
+          <li><%= link_to t(".help") %></a></li>
+          <li><%= link_to t(".login") %></a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container">
+      <%= yield %>
+    </div>
   </body>
 </html>

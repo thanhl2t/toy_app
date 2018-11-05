@@ -1,0 +1,18 @@
+<div id="index_main">
+  <div id="about_main">
+    <h1> <%= t ".titles" %> </h1>
+    <h3>
+      <%= t ".the" %> <%= link_to t(".ruby"), Settings.about.link4 %> <%= t ".is" %>
+      <%= link_to t(".book"), Settings.about.link5 %> <%=t ".and" %>
+      <%= link_to t(".screen"), Settings.about.link6 %> <%= t ".to" %>
+      <%= link_to t(".ruby1"), Settings.about.link7 %> <%= t ".this" %>
+  </h3>
+  </div>
+</div>
+
+<div class="languages">
+  <%= t ".Languages" %>
+  <%= link_to t(".En"), locale:"en" %>
+  <%= link_to t(".Vi"), locale:"vi" %>
+  <% provide :title, t(".title1") %>
+</div>
