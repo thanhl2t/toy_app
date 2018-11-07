@@ -1,0 +1,21 @@
+<footer class="footer">
+  <div class="footer_option">
+    <h2>
+      <%= t(".the") %> <%= link_to t(".ruby"), Settings._footer.link8 %>
+      <%= t(".by") %> <%= link_to t(".author"), Settings._footer.link9 %>
+    </h2>
+    <nav>
+      <ul>
+        <li><%= link_to t(".about"), about_path %></li>
+        <li><%= link_to t(".news"), Settings._footer.link10 %></li>
+        <li><%= link_to t(".contact"), '#' %></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="languages">
+    <%= t ".Languages" %>
+    <%= link_to t(".En"), locale:"en" %>
+    <%= link_to t(".Vi"), locale:"vi" %>
+    <% provide :title, t(".title1") %>
+  </div>
+</footer>

@@ -1,0 +1,68 @@
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+
+/* universal */
+
+body {
+}
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+}
+
+.navbar {
+  height: 100px;
+  padding-top: 10px;
+}
+
+.logo {
+  font-size: 2.5em;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: bold;
+  &:hover {
+    color: blue;
+    text-decoration: none;
+  }
+}
+
+.index_main{
+  height: 300px;
+  margin-top: 150px;
+}
+
+.row {
+  margin-top: 125px;
+}
+
+.center h1 {
+  margin-bottom: 10px;
+}
+
+.footer_option {
+  height: 150px;
+}
+
+.jumbotron h1 {
+  font-size: 55px;
+}
+
+.languages {
+   text-align: center;
+}
+
+.debug_dump {
+  clear: both;
+  float: left;
+  width: 100%;
+  margin-top: 45px;
+  box-sizing: border-box;
+}

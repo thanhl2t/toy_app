@@ -1,33 +1,71 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  static_pages:
+    home:
+      app: "Welcome to the Sample App"
+      first: "This is the home page for the"
+      link: "Ruby on Rail tutorial"
+      last: "sample application."
+      title1: "Home"
+    about:
+      titles: "About"
+      the: "The"
+      ruby: "Ruby on Rails Tutorial"
+      is: "is a"
+      book: "book"
+      and: "and"
+      screen: "screencast series"
+      to: "to teach web development with"
+      ruby1: "Ruby on Rails"
+      this: "This is the sample application for the tutorial."
+    help:
+      title3: "Help"
+      get: "Get"
+      sample: "sample"
+      book: "book"
+    contact:
+      contact: "Contact"
+      contact1: "Contact the Ruby on Rails Tutorial about the sample app at the"
+      contact2: "contact page."
+    helpers:
+      application_helper:
+        title2: Ruby on Rails Tutorial Sample App
+  layouts:
+    application:
+      title2: Ruby on Rails Tutorial Sample App
+      sample app: "Sample app"
+      home: "Home"
+      help: "Help"
+      login: "Login"
+    header:
+      home: "Home"
+      help: "Help"
+      login: "Login"
+    footer:
+      about: "About"
+      contact: "Contact"
+      news: "News"
+      the: "The"
+      by: "by"
+      ruby: "Ruby on Rails Tutorial"
+      author: "Michael Hartl"
+      Languages: "Languages"
+      En: "English"
+      Vi: "Vietnamese"
+  users:
+    new:
+      Users: "Users"
+      Find: "Find me in"
+      sign: "Signup"
+      page: "This will be a signup page for new users."
+      english: "English"
+      vietnam: "Vietnamese"
+      password_confirmation: "Confirmation"
+      create: "Create my account"
+      name: "Name"
+      email: "Email"
+      pass: "Password"
+    show:
+      nouser: "No such user"
+    create:
+      welcome: "Welcome to the Sample App!"
+

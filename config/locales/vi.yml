@@ -1,0 +1,70 @@
+vi:
+  static_pages:
+    home:
+      app: "Chào mừng bạn đến với Ứng dụng mẫu"
+      first: "Đây là trang chủ cho"
+      link: "Hướng dẫn Ruby on Rail"
+      last: "ứng dụng mẫu."
+      title1: "Trang chủ"
+    about:
+      titles: "Trợ giúp"
+      the: "Các"
+      ruby: "Hướng dẫn Ruby on Rails"
+      is: "là một"
+      book: "sách"
+      and: "và"
+      screen: "screencast series"
+      to: "để dạy phát triển web với"
+      ruby1: "Ruby on Rails"
+      this: "Đây là ứng dụng mẫu cho hướng dẫn."
+    help:
+      title3: "Trợ Giúp"
+      get: "Lấy"
+      sample: "mẫu"
+      book: "sách"
+    contact:
+      contact: "Liên hệ"
+      contact1: "Liên hệ với Ruby on Rails Tutorial về ứng dụng mẫu tại"
+      contact2: "Trang liên lạc"
+    helpers:
+      application_helper:
+        title2: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
+  layouts:
+    application:
+      title2: Ứng dụng mẫu hướng dẫn Ruby on Rails
+      sample app: "Ứng dụng mẫu"
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      login: "Đăng nhập"
+    header:
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      login: "Đăng nhập"
+    footer:
+      about: "Chúng tôi"
+      contact: "Liên hệ"
+      news: "Tin tức"
+      the: "Các"
+      by: "bởi"
+      ruby: "Hướng dẫn Ruby on Rails"
+      author: "Michael Hartl"
+      Languages: "Ngôn ngữ"
+      En: "Tiếng Anh"
+      Vi: "Tiếng Việt"
+  users:
+    new:
+      Users: "Tài khoản"
+      Find: "Tìm kiêm trong"
+      sign: "Đăng ký"
+      page: "Đây sẽ là trang đăng ký cho người dùng mới."
+      english: "Tiếng Anh"
+      vietnam: "Tiếng Việt"
+      password_confirmation: "Xác nhận mật khẩu"
+      create: "Tạo tài khoản"
+      name: "Tên"
+      email: "Email"
+      pass: "Mật khẩu"
+    show:
+      nouser: "Không có người dùng như vậy"
+    create:
+      welcome: "Chào mừng bạn đến với Ứng dụng mẫu!"
