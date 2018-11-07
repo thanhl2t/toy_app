@@ -1,0 +1,19 @@
+<% provide :title, t(".sign") %>
+<div class="row">
+  <h1> <%= t ".sign" %> </h1>
+  <div class="col-md-6 col-md-offset-3">
+    <%= form_for @user, url: signup_path do |f| %>
+      <%= render "shared/error_messages" %>
+      <%= f.label :name, t(".name") %>
+      <%= f.text_field :name, class: "form-control" %><br>
+      <%= f.label :email, t(".email") %>
+      <%= f.email_field :email, class: "form-control" %><br>
+      <%= f.label :password, t(".pass") %>
+      <%= f.password_field :password, class: "form-control" %><br>
+      <%= f.label :password_confirmation, t(".password_confirmation") %>
+      <%= f.password_field :password_confirmation, class: "form-control" %><br>
+      <%= f.submit t(".create"), class: "btn btn-primary" %>
+    <% end %>
+  </div>
+</div>
+
